@@ -1,0 +1,23 @@
+/* Use the searchbox styling */
+@import "searchbox";
+/* Use the collapsable Top Menu */
+@import "collapsable-topnav";
+
+/* Titlerow styling */
+#s4-titlerow{
+	padding:$gutter + 10px 0 $gutter -5 0;
+	height: auto;
+	border-bottom: solid darken($grayscale,5%) 1px;
+	@include box-shadow(0, 0, $gutter, 0, $grayscale);
+
+	#titleAreaBox{
+		#titleAreaRow{
+			#siteIcon{
+				line-height: initial;
+			}
+			.ms-breadcrumb-box{
+				vertical-align: middle;
+			}
+		}
+	}
+}

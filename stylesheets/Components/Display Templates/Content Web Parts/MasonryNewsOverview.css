@@ -1,0 +1,43 @@
+/* line 4, ../../../../sass/Components/Display Templates/Content Web Parts/MasonryNewsOverview.scss */
+.grid {
+  margin-left: -2px;
+  margin-right: -2px;
+}
+/* line 7, ../../../../sass/Components/Display Templates/Content Web Parts/MasonryNewsOverview.scss */
+.grid .grid-sizer, .grid .grid-item {
+  width: 50%;
+  padding: 2px;
+}
+@media screen and (max-width: 768px) {
+  /* line 7, ../../../../sass/Components/Display Templates/Content Web Parts/MasonryNewsOverview.scss */
+  .grid .grid-sizer, .grid .grid-item {
+    width: 100%;
+  }
+}
+/* line 14, ../../../../sass/Components/Display Templates/Content Web Parts/MasonryNewsOverview.scss */
+.grid .grid-sizer .item-content, .grid .grid-item .item-content {
+  background-color: #F1F1F1;
+}
+/* line 17, ../../../../sass/Components/Display Templates/Content Web Parts/MasonryNewsOverview.scss */
+.grid .grid-sizer .item-content .item-content-text, .grid .grid-item .item-content .item-content-text {
+  color: black;
+  text-transform: uppercase;
+  padding: 10px;
+}
+/* line 21, ../../../../sass/Components/Display Templates/Content Web Parts/MasonryNewsOverview.scss */
+.grid .grid-sizer .item-content .item-content-text h5, .grid .grid-item .item-content .item-content-text h5 {
+  margin: 0;
+}
+/* line 24, ../../../../sass/Components/Display Templates/Content Web Parts/MasonryNewsOverview.scss */
+.grid .grid-sizer .item-content .item-content-text h5:hover, .grid .grid-item .item-content .item-content-text h5:hover {
+  text-decoration: none;
+}
+/* line 27, ../../../../sass/Components/Display Templates/Content Web Parts/MasonryNewsOverview.scss */
+.grid .grid-sizer .item-content .item-content-text p, .grid .grid-item .item-content .item-content-text p {
+  margin: 0;
+  font-size: 0.85em;
+}
+/* line 32, ../../../../sass/Components/Display Templates/Content Web Parts/MasonryNewsOverview.scss */
+.grid .grid-sizer .item-content a:hover, .grid .grid-item .item-content a:hover {
+  text-decoration: none;
+}
